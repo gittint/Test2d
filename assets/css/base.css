@@ -4,10 +4,11 @@
 }
 
 :root{
-    --blue-btn:#3c64b1;
+    --blue-btn:#3C64B1;
     --text : #373F41;
     --text-sub : #737B7D;
     --white : white;
+    --white-bg :#F4F5F4; 
 }
 
 html{  
