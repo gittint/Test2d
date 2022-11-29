@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --blue-btn:#3c64b1;
+    --text : #373F41;
+    --text-sub : #737B7D;
+    --white : white;
+}
+
+html{  
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    padding-left: 0px;
+    margin-left: 0px;
+    list-style: none;
+}
+
+li{
+    padding-left: 0px;
+    margin-left: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
