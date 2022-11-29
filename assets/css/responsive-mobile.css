@@ -23,10 +23,13 @@
 
     .nav__menu{
         display: block;
+        padding-left: 0;
         background-color: var(--white);
         margin: 0;
         /* note */
-        display: none;
+        visibility: hidden;
+        opacity: 0;
+        /* transition: all ease 0.5s; */
     }
 
     .nav__menu--item{
@@ -40,7 +43,9 @@
         margin: 0;
         background-color: var(--white);
         /* note */
-        display: none;
+        visibility: hidden;
+        opacity: 0;
+        /* transition: all ease 0.5s; */
     }
 
     .nav__btn-item{
@@ -84,5 +89,11 @@
         margin: 10px 0px 10px 20px;
     }
 
+    /* js  */
+    .nav__menu.active, .nav__btn.active{
+        visibility: visible;
+        opacity: 1;
+        transition: all ease 0.5s;
+    }
 
 }

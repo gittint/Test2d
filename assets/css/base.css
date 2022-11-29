@@ -30,3 +30,39 @@ a{
     text-decoration: none;
     color: black;
 }
+
+@keyframes Appear {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes Disappear {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes Hoverbtn{
+    0%{
+        background-color: var(--color);
+    }
+    100%{
+        background-color: var(--hover-color);
+    }
+}
+
+@keyframes Hoveroutbtn{
+    0%{
+        background-color: var(--hover-color);
+    }
+    100%{
+        background-color: var(--color);
+    }
+}
