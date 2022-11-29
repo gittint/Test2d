@@ -1,5 +1,5 @@
 @media (max-width:1024px){
-    .nav, .body__head, .body__article, .body__aside{
+    .nav{
         padding: 0 50px;
     }
     
@@ -11,25 +11,12 @@
         margin-left: 50px;
     }
 
-    .body__head{
-        margin-top: 50px;
-    }
-
     .body__head-menu{
         justify-content: center;
     }
 
-    .body__head-menu--item{
-        margin: 20px 0;
-    }
-
-    .body__article{
-        justify-content: center;
-        margin-top: 50px;
-    }
-
     .body__article-content{
-        padding-top: 20px;
+        padding-top: 30px;
     }
 
     .body__article-content--heading{
@@ -39,33 +26,13 @@
     .body__article-content--form-input{
         width: 380px;
     }
-
-    .body__article-content--menu{
-        justify-content: center;
-    }
     
     .body__article-content--menu-item{
-        width: 200px;
-        margin: 0 30px;
         text-align: center;
     }
 
     .body__article-content--menu-item-text{
         text-align: center;
-    }
-
-    .body__aside{
-        justify-content: center;
-        margin-top: 50px;
-    }
-
-    .body__aside-item{
-        width: 200px;
-        margin: 0 50px 30px 50px;
-    }
-
-    .body__aside-item--img{
-        height: 240px;
     }
 
 }

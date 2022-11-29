@@ -1,3 +1,88 @@
 @media (max-width:739px){
+    .body__head, .body__aside, .body__article{
+        padding: 0 20px;
+        margin: 30px 0;
+    }
     
+    .nav{
+        padding: 0;
+        display: block;
+        min-height: 88px;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        background-color: var(--white);
+        width: 100%;
+    }
+
+    .nav__logo{
+        display: block;
+        padding-top: 27px;
+        padding-left: 27px;
+    }
+
+    .nav__menu{
+        display: block;
+        background-color: var(--white);
+        margin: 0;
+        /* note */
+        display: none;
+    }
+
+    .nav__menu--item{
+        margin: 0;
+        padding: 20px;
+        border-bottom: 1px solid var(--blue-btn);
+        text-align: center;
+    }
+
+    .nav__btn{
+        margin: 0;
+        background-color: var(--white);
+        /* note */
+        display: none;
+    }
+
+    .nav__btn-item{
+        margin: 25px 20px;
+    }
+
+    .nav__moblie-icon{
+        display: block;
+        position: absolute;
+        top: 12px;
+        right: 25px;
+        font-size: 40px;
+        font-weight: 500;
+        padding: 10px;
+        color: var(--blue-btn);
+    }
+
+    .header{
+        margin-top: 88px;
+    }
+
+    .header__content{
+        align-items: flex-start;
+    }
+
+    .header__content--heading{
+        padding: 50px 10px 0px;
+    }
+
+    .header__content--desc{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .body__article-content--form-input{
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .body__article-content--form-btn{
+        margin: 10px 0px 10px 20px;
+    }
+
+
 }
